@@ -1,0 +1,39 @@
+{
+  "name": "Chat-cli-lite",
+  "description": "A lite weight chat app with free gemini models",
+  "default_model": "gemini-3.1-flash-lite-preview",
+  "models": {
+    "gemini-2.5-flash": {
+      "request": 20,
+      "level": "high"
+    },
+    "gemini-2.5-flash-lite": {
+      "request": 20,
+      "level": "medium"
+    },
+    "gemini-3-flash-preview": {
+      "request": 20,
+      "level": "high"
+    },
+    "gemini-3.1-flash-lite-preview": {
+      "request": 500,
+      "level": "medium"
+    },
+    "gemma-3-27b-it": {
+      "request": 14400,
+      "level": "medium"
+    },
+    "gemma-3-12b-it": {
+      "request": 14400,
+      "level": "low"
+    },
+    "gemma-3-3b-it": {
+      "request": 14400,
+      "level": "low"
+    },
+    "gemma-3-1b-it": {
+      "request": 14400,
+      "level": "low"
+    }
+  },
+}

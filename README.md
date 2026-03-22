@@ -49,6 +49,16 @@ If you have different Gemini models available or want to be explicit.
 
 *(Note: The exact command name and options will depend on how `gemini.py` is implemented as very basic cli. This is a general template.)*
 
+## Commands
+
+*   `/model`: Change the active Gemini model.
+*   `/exit` or `/quit`: Exit the CLI application.
+*   `/session`: Load or switch between chat sessions.
+*   `/save`: Manually save the current chat session (note: there is no autosave upon exit).
+*   `/new`: Create a new chat session.
+
+To change the default model, modify the `setting.json` file.
+
 ## Configuration
 
 API keys and other settings can typically be managed via environment variables or a configuration file.

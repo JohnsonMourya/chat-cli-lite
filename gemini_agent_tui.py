@@ -109,7 +109,7 @@ class MainApp(App):
             ]
 
     def compose(self) -> ComposeResult:
-        command = ['/model', '/quit', '/exit', '/save', '/session']
+        command = ['/model', '/quit', '/exit', '/save', '/session', '/new']
         self.commands = SuggestFromList(command, case_sensitive=False)
         self.status = Label("", id="status")
         self.model_lbl = Label("model", id="model-name")

@@ -15,7 +15,7 @@ To install Gemini CLI Lite, you can use pip if it's packaged, or clone the repos
 
 1. Clone the repository:
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/JohnsonMourya/chat-cli-lite.git
     cd Gemini_cli_lite
     ```
 
@@ -54,7 +54,7 @@ If you have different Gemini models available or want to be explicit.
 *   `/model`: Change the active Gemini model.
 *   `/exit` or `/quit`: Exit the CLI application.
 *   `/session`: Load or switch between chat sessions.
-*   `/save`: Manually save the current chat session (note: there is no autosave upon exit).
+*   `/save`: Manually save the current chat session and save when you change session. You add args for name added to date time. (note: there is no autosave upon exit).
 *   `/new`: Create a new chat session.
 
 To change the default model, modify the `setting.json` file.
